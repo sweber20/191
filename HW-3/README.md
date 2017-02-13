@@ -1,8 +1,8 @@
 # URL LINK
 
 My homework is located at the following URL:
+https://github.com/sweber20/191/blob/master/HW-3/README.md
 https://sweber20.github.io/191/HW-3
-https://sweber20.github.io/191/HW-3/empty-example
 ## HW-3 MONSTER
 
 This week I have began to use the p5.js file structure to create a branch of text through the markdown language to create a visual in my browser index.
