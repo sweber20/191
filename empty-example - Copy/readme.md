@@ -1,0 +1,8 @@
+# CHALLENGING
+  This week was the hardest assignment yet. Not sure if it's because of the break that we took by not having class on Monday, or if I had never really understood the new material that well in the first place. Never the less I was incredibly frustrated throughout the entire duration of this assignment.
+
+## COMMENTS FOR THIS WEEK
+  I find that the best way that I learn is by imitation through the class lessons and the subject at hand. I have noticed that at a certain point I begin to feel derailed during the lesson and I find it impossible to take in any and all instruction at this specific time. I had come up with a plan to just type really fast and stay caught up with the instructor's computer on the large monitor and when I was caught up I felt like I was actually learning. Inevitably, I became once again derailed and could not process any of the information coming at me for the next 40 minutes. I'm not sure what to do when the speed of the class passes beyond my level of comprehension as I feel like during those 40 minutes of falling behind I learn absolutely nothing through only example.
+
+### FINAL THOUGHTS
+  whether it is because the class missed a session on Monday or because the class speed of instruction has gone up so much, I feel like I have learned the least from this week of class versus any other week. My retention of the knowledge given to me this week dwindles with every passing day. I hope to stay caught up as much as possible but if the current trend continues I worry for my grade as I'm already sure I will only begin to struggle more and more.
