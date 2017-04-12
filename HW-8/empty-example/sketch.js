@@ -21,7 +21,7 @@ function draw() {
   background(0);
   fill(32, 55, 108);
   rect(xR,200, 50, 200);
-  xR += random(-1, 1);
+  xR += random(-0.5, 0.5);
 
   pop();
 
