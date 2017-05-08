@@ -49,14 +49,14 @@ function draw() {
       push();
       fill(0, 0, 200);
       textSize(36)
-      text("SIMON",windowWidth / 2 -50,windowHeight /3 -200);
+      text("SIMON",windowWidth / 2 -50,windowHeight /3 -100);
       pop();
 
       push()
 
       fill(200, 0, 0);
       textSize(36);
-      text("SAYS",windowWidth / 2 + 100,windowHeight /3 -200);
+      text("SAYS",windowWidth / 2 + 100,windowHeight /3 -100);
       pop()
 
 
@@ -81,13 +81,13 @@ function draw() {
       push();
       fill(0, 0, 200);
       textSize(36)
-      text("SIMON",windowWidth / 2 -50,windowHeight /3 -200);
+      text("SIMON",windowWidth / 2 -50,windowHeight /3 -100);
       pop();
 
       push();
       fill(200, 0, 0);
       textSize(36)
-      text("SAYS",windowWidth / 2 + 100,windowHeight /3 -200);
+      text("SAYS",windowWidth / 2 + 100,windowHeight /3 -100);
       pop();
 
       console.log("button: " + placeholder[simonNum]);
