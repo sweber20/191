@@ -22,10 +22,10 @@ function setup() {
     // bt1.push( new Gsq(i *200 + 50, 300, size, buttColors[i]))
   }
 
-  bt1.push( new Gsq(200, 200, size, 'rgba(255, 227, 20, 200)'))
-  bt1.push( new Gsq(300, 200, size, 'rgba(255, 62, 137, 200)'))
-  bt1.push( new Gsq(200 , 300, size, 'rgba(30, 215, 0, 200)'))
-  bt1.push( new Gsq(300, 300, size, 'rgba(255, 63, 33, 200)'))
+  bt1.push( new Gsq(windowWidth / 2, 200, size, 'rgba(255, 227, 20, 200)'))
+  bt1.push( new Gsq(windowWidth / 2 + 100, 200, size, 'rgba(255, 62, 137, 200)'))
+  bt1.push( new Gsq(windowWidth / 2 , 300, size, 'rgba(30, 215, 0, 200)'))
+  bt1.push( new Gsq(windowWidth / 2 + 100, 300, size, 'rgba(255, 63, 33, 200)'))
   placeholder.push(floor(random(4)));
 }
 
@@ -44,6 +44,29 @@ function draw() {
     background(255)
     for (var i = 0; i < bt1.length; i++) {
       bt1[i].frame()
+
+
+      push();
+      fill(0, 0, 200);
+      textSize(36)
+      text("SIMON",windowWidth / 2 -50,windowHeight /3 -200);
+      pop();
+
+      push()
+
+      fill(200, 0, 0);
+      textSize(36);
+      text("SAYS",windowWidth / 2 + 100,windowHeight /3 -200);
+      pop()
+
+
+
+
+
+      fill(0)
+       text("simon's turn",windowWidth / 2 - 200,200)
+
+
     }
 
     // execute players turn
@@ -52,6 +75,20 @@ function draw() {
     for (var i = 0; i < bt1.length; i++) {
       bt1[i].frame()
 
+      fill(255);
+      text("your turn",windowWidth / 2 - 200,200);
+
+      push();
+      fill(0, 0, 200);
+      textSize(36)
+      text("SIMON",windowWidth / 2 -50,windowHeight /3 -200);
+      pop();
+
+      push();
+      fill(200, 0, 0);
+      textSize(36)
+      text("SAYS",windowWidth / 2 + 100,windowHeight /3 -200);
+      pop();
 
       console.log("button: " + placeholder[simonNum]);
       if (bt1[i].buttonPressed() && i == placeholder[simonNum]){
