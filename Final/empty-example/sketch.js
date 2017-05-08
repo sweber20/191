@@ -10,8 +10,8 @@ var placeholder = [];
 var simonsTurn = true;
 var correctPress = false;
 var simonNum = -1;
-var gameOver = false
-var score = 0
+var gameOver = false;
+var score = 0;
 
 
 function setup() {
